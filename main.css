@@ -212,3 +212,63 @@ h3 {
     width: 200px;
     border-radius: 12px;
 }
+
+@media (max-width: 880px) {
+    .container {
+        width: 600px;
+        font-size: 16px;
+    }
+
+    #food {
+        height: 60%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+
+    .cours .cours-text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 400px;
+        font-size: 14px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    #food {
+        height: 40%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+
+    .cours .cours-picture {
+        width: 200px;
+    }
+
+    .cours .cours-text {
+        width: 60%;
+    }
+}
+
+@media (max-width: 530px) {
+    .logo h1 {
+        font-size: 45px;
+    }
+
+    .container img {
+        width: 60%;
+    }
+
+    .container .cours-picture img {
+        width: 80%;
+    }
+}
