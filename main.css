@@ -272,3 +272,30 @@ h3 {
         width: 80%;
     }
 }
+
+@media (max-width: 480px) {
+    .container {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #food {
+        height: 40%;
+    }
+
+    .container img {
+        width: 80%;
+    }
+
+    .cours .cours-picture {
+        width: 150px;
+    }
+
+    .cours .cours-text {
+        width: 60%;
+    }
+}
